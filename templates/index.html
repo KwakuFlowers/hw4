@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link href="../static/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1> Kwaku's Favorite Shows are listed below:</h1>
+    <ol>
+        <div class="sh1">
+            <img class="sh1i" src="{{url_for('static',filename='ben.jpg')}}" width="400" height="400">
+            <h1>{{shows[0]}}</h1>
+        </div>
+        <div class="sh2">
+            <img class="sh2i" src="{{url_for('static',filename='hunter.jpg')}}" width="400" height="400">
+            <h1>{{shows[1]}}</h1>
+        </div>
+        <div class="sh3">
+            <img class="sh3i" src="{{url_for('static',filename='Naurto.jpg')}}" width="400" height="400">
+            <h1>{{shows[2]}}</h1>
+        </div>
+        <div class="sh3">
+            <img class="sh4i" src="{{url_for('static',filename='office.jpg')}}" width="400" height="400">
+            <h1>{{shows[3]}}</h1>
+        </div>
+</body>
+
+</html>
